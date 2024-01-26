@@ -7,7 +7,6 @@
 `ramukaka app.js`
 
 
-<br>
 ## How can you make it?
 
 It has 3 components:
