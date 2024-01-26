@@ -1,0 +1,17 @@
+{
+  "name": "ramukaka",
+  "version": "1.0.0",
+  "description": "nodemon uncle!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ramukaka": "./index.js"
+  },
+  "author": "Kunal",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
