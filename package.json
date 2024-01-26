@@ -1,7 +1,7 @@
 {
   "name": "ramukaka",
   "version": "1.0.0",
-  "description": "nodemon uncle!",
+  "description": "A superfast lighweight alternative for Nodemon!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,23 @@
   "bin": {
     "ramukaka": "./index.js"
   },
-  "author": "Kunal",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/kumar-kunal/ramukaka.git"
+	},
+  "bugs": {
+		"url": "https://github.com/kumar-kunal/ramukaka/issues"
+	},
+	"homepage": "https://github.com/kumar-kunal/ramukaka#readme",		
+	"keywords": [
+		"nodemon alternative",
+		"node",
+		"ramukaka"
+	],
+  "author": {
+		"name": "Kunal Kumar",
+		"url": "https://www.linkedin.com/in/thekumarkunal/"
+	},
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.3"
