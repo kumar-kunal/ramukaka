@@ -1,6 +1,14 @@
-Ramukaka is an alternative to Nodemon.
+# Ramukaka: an lightweight alternative to Nodemon.
 
-How does it work?
+## Intallation
+`npm i ....`
+
+## How to use it?
+`ramukaka app.js`
+
+
+<br>
+## How can you make it?
 
 It has 3 components:
 - A CLI application
@@ -11,9 +19,9 @@ In simple term, we have to build a CLI application which will listen to file cha
 
 How to Build CLI application in Node?
 
-Check index.js file, it is starting with `#!/usr/bin/env node`. It tells system that the script (index.js) will be executed by `node` present at given path.
+Check `index.js` file, it is starting with `#!/usr/bin/env node`. It tells system that the script (index.js) will be executed by `node` present at given path.
 
-Also, in package.json,
+Also, in `package.json`,
 We need to create duplicate node binary by adding bin section.
 
 Now, our CLI application is ready...🚀
